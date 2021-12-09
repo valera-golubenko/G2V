@@ -105,7 +105,7 @@ footer{
 padding: 184px 0 191px 0;
 position: relative;
 z-index: 2;
-max-width: 509px;
+max-width: 400px;
 }
 .main-block__body > *:not(:last-child){
     margin:0 0 35px 0;
@@ -135,6 +135,9 @@ letter-spacing: 0.2px;
 font-weight: 700;
 line-height: 150%;
 text-align: center;
+}
+.main-block__button:not(:last-child){
+    margin: 0 10px 0 0;
 }
 .main-block__button_orange{
 background: #ff7b47;
